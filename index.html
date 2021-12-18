@@ -1,213 +1,281 @@
 <html>
-
-<head>
+  <head>
     <title>Medihos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" href="assets/img/icon.ico">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="assets/img/icon.ico" />
     <script src="assets/js/script.js"></script>
-</head>
+  </head>
 
-<body id="myBody" onscroll="scrollFunction()">
+  <body id="myBody" onscroll="scrollFunction()">
     <nav id="myNav">
-        <ul class="topnav">
-            <li class="logo"><img src="assets/img/logo.png" class="icon-logo"></li>
-            <li><a href="#" class="active">Beranda</a></li>
-            <li><a href="#fitur">Fitur</a></li>
-            <li><a href="#pesan">Pesan</a></li>
-            <li><a href="#tentang">Tentang</a></li>
-            <li><a href="#" class="login">Masuk</a></li>
-            <li class="icon">
-                <a href="javascript:void(0);" onclick="myFunction()">☰</a>
-            </li>
-        </ul>
+      <ul class="topnav">
+        <li class="logo">
+          <img src="assets/img/logo.png" class="icon-logo" />
+        </li>
+        <li><a href="#" class="active">Beranda</a></li>
+        <li><a href="#fitur">Fitur</a></li>
+        <li><a href="#jadwal">Jadwal</a></li>
+        <li><a href="#pesan">Pesan</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#" class="login">Masuk</a></li>
+        <li class="icon">
+          <a href="javascript:void(0);" onclick="myFunction()">☰</a>
+        </li>
+      </ul>
     </nav>
     <header>
-        <main>
-            <div class="background">
-                <div class="info">
-                    <div class="content">
-                        <h1>DI RUMAH AJA</h1>
-                        <p>Tetap dirumah dan Rajin Menjaga Kebersihan dengan Mencuci Tangan, Keluar dengan menggunakan
-                            Masker, Serta menjaga jarak ( Social Distancing ) Agar Bisa memutus Rantai Pandemi Covid-19
-                        </p>
-                        <button class="button1">INFO SELENGKAPNYA</button>
-                    </div>
-                </div>
+      <main>
+        <div class="background">
+          <div class="info">
+            <div class="content">
+              <h1>DI RUMAH AJA</h1>
+              <p>
+                Tetap dirumah dan Rajin Menjaga Kebersihan dengan Mencuci
+                Tangan, Keluar dengan menggunakan Masker, Serta menjaga jarak (
+                Social Distancing ) Agar Bisa memutus Rantai Pandemi Covid-19
+              </p>
+              <button class="button1">INFO SELENGKAPNYA</button>
             </div>
-        </main>
+          </div>
+        </div>
+      </main>
     </header>
     <article>
-        <div class="container" id="fitur">
-            <h1>Fitur Website Kami</h1>
-            <p>Di Website Medihos ini kami menyediakan beberapa vitur utama yaitu : Emergency Ambulance, Emergency
-                Ambulance ini berguna untuk orang-orang yang sedang dalam keadaan mendesak atau tidak mampu lagi untuk
-                mengulur-ulur waktu. vasilitas yang ke-2 yaitu : Pemesanan Kamar User/Pasien dapat memesan kamar untuk
-                Rawat inap,Kontrol penyakit dan lain sebagainya, vasilitas yang ke-3 yaitu : jadwal dokter, jadi kita
-                tidak perlu ke rumah sakit untuk melihat jadwal dokter yang pasien inginkan cukup melihat di website
-                Medihos ini.</p>
-            <div class="row">
-                <div class="col">
-                    <img src="assets/img/ambulance.png">
-                    <h1>Pesan Ambulance</h1>
-                </div>
-                <div class="col">
-                    <img src="assets/img/doctor.png">
-                    <h1>Jadwal Dokter</h1>
-                </div>
-                <div class="col">
-                    <img src="assets/img/hospital.png">
-                    <h1>Pesan Kamar</h1>
-                </div>
-            </div>
+      <div class="container" id="fitur">
+        <h1>Fitur Website Kami</h1>
+        <p>
+          Di Website Medihos ini kami menyediakan beberapa vitur utama yaitu :
+          Emergency Ambulance, Emergency Ambulance ini berguna untuk orang-orang
+          yang sedang dalam keadaan mendesak atau tidak mampu lagi untuk
+          mengulur-ulur waktu. vasilitas yang ke-2 yaitu : Pemesanan Kamar
+          User/Pasien dapat memesan kamar untuk Rawat inap,Kontrol penyakit dan
+          lain sebagainya, vasilitas yang ke-3 yaitu : jadwal dokter, jadi kita
+          tidak perlu ke rumah sakit untuk melihat jadwal dokter yang pasien
+          inginkan cukup melihat di website Medihos ini.
+        </p>
+        <div class="row">
+          <div class="col">
+            <img src="assets/img/ambulance.png" />
+            <h1>Pesan Ambulance</h1>
+          </div>
+          <div class="col">
+            <img src="assets/img/doctor.png" />
+            <h1>Jadwal Dokter</h1>
+          </div>
+          <div class="col">
+            <img src="assets/img/hospital.png" />
+            <h1>Pesan Kamar</h1>
+          </div>
         </div>
-        <div class="kamar" id="pesan">
-            <h1 style="padding: 10px;">Kamar Rekomendasi</h1>
-            <p style="width: 80%; margin: 0 auto; margin-bottom: 30px;">Kamar Rawat Inap Kelas VIP Terbaik Yang di
-                Rekomendasikan oleh kami untuk pasien yang ingin rawat inap dengan kualitas kamar yang nyaman dan sejuk
-                karena difasilitasi barang-barang yang mendukung kenyamanan Pasien</p>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <img src="assets/img/kamar1 (1).jpg">
-                        <h1>Kamar VIP</h1>
-                        <h2>Rp. 1.000.000</h2>
-                        <button>Pesan Sekarang</button>
-                    </div>
-                    <div class="col">
-                        <img src="assets/img/kamar1 (2).jpg">
-                        <h1>Kamar VIP</h1>
-                        <h2>Rp. 1.000.000</h2>
-                        <button>Pesan Sekarang</button>
-                    </div>
-                    <div class="col">
-                        <img src="assets/img/kamar1 (3).jpg">
-                        <h1>Kamar VIP</h1>
-                        <h2>Rp. 1.000.000</h2>
-                        <button>Pesan Sekarang</button>
-                    </div>
-                    <div class="col">
-                        <img src="assets/img/kamar1 (4).jpg">
-                        <h1>Kamar VIP</h1>
-                        <h2>Rp. 1.000.000</h2>
-                        <button>Pesan Sekarang</button>
-                    </div>
-                    <div class="col">
-                        <img src="assets/img/kamar1 (1).jpg">
-                        <h1>Kamar VIP</h1>
-                        <h2>Rp. 1.000.000</h2>
-                        <button>Pesan Sekarang</button>
-                    </div>
-                    <div class="col">
-                        <img src="assets/img/kamar1 (2).jpg">
-                        <h1>Kamar VIP</h1>
-                        <h2>Rp. 1.000.000</h2>
-                        <button>Pesan Sekarang</button>
-                    </div>
-                    <div class="col">
-                        <img src="assets/img/kamar1 (3).jpg">
-                        <h1>Kamar VIP</h1>
-                        <h2>Rp. 1.000.000</h2>
-                        <button>Pesan Sekarang</button>
-                    </div>
-                    <div class="col">
-                        <img src="assets/img/kamar1 (4).jpg">
-                        <h1>Kamar VIP</h1>
-                        <h2>Rp. 1.000.000</h2>
-                        <button>Pesan Sekarang</button>
-                    </div>
-                </div>
-            </div>
+      </div>
+
+      <h1 align="center" class="text-jadwal">Jadwal Kami</h1>
+      <div class="container" id="jadwal">
+        <div class="item">
+            <img src="./assets/img/calendar.png" style="width: 70%;">
         </div>
-        <div class="berita">
-            <div class="item">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/X-BU3Zdl-b4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <table border="1">
+          <tr>
+            <th>Senin</th>
+            <th>07:00-17:00</td>
+          </tr>
+          <tr>
+            <th>Selasa</th>
+            <th>07:00-17:00</td>
+          </tr>
+          <tr>
+            <th>Rabu</th>
+            <th>07:00-17:00</td>
+          </tr>
+          <tr>
+            <th>Kamis</th>
+            <th>07:00-17:00</td>
+          </tr>
+          <tr>
+            <th>Jumat</th>
+            <th>07:00-15:00</td>
+          </tr>
+          <tr>
+            <th>Sabtu</th>
+            <th>07:00-12:00</td>
+          </tr>
+        </table>
+      </div>
+      <div class="kamar" id="pesan">
+        <h1 style="padding: 10px">Kamar Rekomendasi</h1>
+        <p style="width: 80%; margin: 0 auto; margin-bottom: 30px">
+          Kamar Rawat Inap Kelas VIP Terbaik Yang di Rekomendasikan oleh kami
+          untuk pasien yang ingin rawat inap dengan kualitas kamar yang nyaman
+          dan sejuk karena difasilitasi barang-barang yang mendukung kenyamanan
+          Pasien
+        </p>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img src="assets/img/kamar1 (1).jpg" />
+              <h1>Kamar VIP</h1>
+              <h2>Rp. 1.000.000</h2>
+              <button>Pesan Sekarang</button>
             </div>
-            <div class="item">
-                <div>
-                    <h2>Varian Covid</h2>
-                    <ol>
-                        <li>Varian Alpha</li>
-                        <li>Varian Beta</li>
-                        <li>Varian Gamma</li>
-                        <li>Varian Delta</li>
-                        <li>Varian Lamda</li>
-                        <li>Varian Kappa</li>
-                        <li>Varian Eta</li>
-                        <li>Varian Lota</li>
-                        <li>Varian Mu</li>
-                        <li>Varian Omicron</li>
-                    </ol>
-                </div>
-                <img src="./assets/img/mask.png" class="img-mask">
+            <div class="col">
+              <img src="assets/img/kamar1 (2).jpg" />
+              <h1>Kamar VIP</h1>
+              <h2>Rp. 1.000.000</h2>
+              <button>Pesan Sekarang</button>
             </div>
+            <div class="col">
+              <img src="assets/img/kamar1 (3).jpg" />
+              <h1>Kamar VIP</h1>
+              <h2>Rp. 1.000.000</h2>
+              <button>Pesan Sekarang</button>
+            </div>
+            <div class="col">
+              <img src="assets/img/kamar1 (4).jpg" />
+              <h1>Kamar VIP</h1>
+              <h2>Rp. 1.000.000</h2>
+              <button>Pesan Sekarang</button>
+            </div>
+            <div class="col">
+              <img src="assets/img/kamar1 (1).jpg" />
+              <h1>Kamar VIP</h1>
+              <h2>Rp. 1.000.000</h2>
+              <button>Pesan Sekarang</button>
+            </div>
+            <div class="col">
+              <img src="assets/img/kamar1 (2).jpg" />
+              <h1>Kamar VIP</h1>
+              <h2>Rp. 1.000.000</h2>
+              <button>Pesan Sekarang</button>
+            </div>
+            <div class="col">
+              <img src="assets/img/kamar1 (3).jpg" />
+              <h1>Kamar VIP</h1>
+              <h2>Rp. 1.000.000</h2>
+              <button>Pesan Sekarang</button>
+            </div>
+            <div class="col">
+              <img src="assets/img/kamar1 (4).jpg" />
+              <h1>Kamar VIP</h1>
+              <h2>Rp. 1.000.000</h2>
+              <button>Pesan Sekarang</button>
+            </div>
+          </div>
         </div>
-        <div class="ambulance">
-            <div class="row">
-                <div class="col">
-                    <img src="assets/img/ambulance.png">
-                    <h1>Pesan Ambulance</h1>
-                </div>
-                <div class="col">
-                    <form>
-                        <h2 style="margin: 10px; font-size: 35px;">Isi Formulir</h2>
-                        <input type="text" placeholder="Nama Lengkap">
-                        <input type="text" placeholder="Alamat">
-                        <input type="number" placeholder="Jumlah Mobil">
-                        <select>
-                            <option>-- Metode Pembayaran</option>
-                            <option>ATM</option>
-                            <option>Cash</option>
-                        </select>
-                        <button>Kirim</button>
-                        <br>
-                    </form>
-                </div>
-            </div>
+      </div>
+      <div class="berita">
+        <div class="item">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/X-BU3Zdl-b4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
+        <div class="item">
+          <div>
+            <h2>Varian Covid</h2>
+            <ol>
+              <li>Varian Alpha</li>
+              <li>Varian Beta</li>
+              <li>Varian Gamma</li>
+              <li>Varian Delta</li>
+              <li>Varian Lamda</li>
+              <li>Varian Kappa</li>
+              <li>Varian Eta</li>
+              <li>Varian Lota</li>
+              <li>Varian Mu</li>
+              <li>Varian Omicron</li>
+            </ol>
+          </div>
+          <img src="./assets/img/mask.png" class="img-mask" />
+        </div>
+      </div>
+      <div class="ambulance">
+        <div class="row">
+          <div class="col">
+            <img src="assets/img/ambulance.png" />
+            <h1>Pesan Ambulance</h1>
+          </div>
+          <div class="col">
+            <form>
+              <h2 style="margin: 10px; font-size: 35px">Isi Formulir</h2>
+              <input type="text" placeholder="Nama Lengkap" />
+              <input type="text" placeholder="Alamat" />
+              <input type="number" placeholder="Jumlah Mobil" />
+              <select>
+                <option>-- Metode Pembayaran</option>
+                <option>ATM</option>
+                <option>Cash</option>
+              </select>
+              <button>Kirim</button>
+              <br />
+            </form>
+          </div>
+        </div>
+      </div>
     </article>
     <article class="bio">
-        <h1>Tentang Kami</h1>
-        <div class="about" id="tentang">
-            <div class="visi">
-                <div class="isi">
-                    <h1>Visi & Misi Kami</h1>
-                    <p>Visi Kami Menjadi Website rumah sakit dengan pelayanan prima, pilihan utama masyarakat Misi
-                        KamiMemberikan pelayanan kesehatan yang cepat, tepat dan akurat. Mengutamakan kepuasan dan
-                        keselamatan pasien. Memberikan pelayanan kesehatan yang terjangkau oleh seluruh lapisan
-                        masyarakat.Meningkatkan pengetahuan dan keterampilan karyawan, sehingga mampu melaksanakan
-                        pelayanan yang profesional. Meningkatkan kualitas alat kedokteran yang dapat memberikan nilai
-                        lebih bagi pelayanan kesehatan.</p>
-                    <h1>Harapan Kami</h1>
-                    <p>Sungguh terhormat bagi kami, jika Anda datang ke Website Ini dan bisa memperoleh banyak hal yang
-                        bermanfaat. Medihos adalah sebuah Website yang menyediakan Emergency Ambulance, Pemesanan Kamar
-                        dan jadwal praktek dokter Bermula dari sebuah ide cemerlang yang saya dan tim saya Remukan,
-                        Website ini diharapkan bisa memudahkan pasien yang membutuhkan pelayanan cepat. Seiring dengan
-                        semakin berkembangnya teknologi, maka kami mencoba berinovasi. Salah satu bentuk inovasinya
-                        adalah dengan menyediakan Website Medihos ini, dan Webssite Medihos ini adalah salah satu bentuk
-                        pelayanan kami kepada Anda.</p>
-                </div>
-            </div>
-            <aside>
-                <div class="isi">
-                    <div class="profile">
-                        <center>
-                            <img src="assets/img/profil.jpg">
-                            <h3>M. Asnur Ramdani</h3>
-                        </center>
-                        <ul>
-                            <li style="list-style-image: url('assets/img/gmail.png');">@asnurramdhani12@gmail.com</li>
-                            <li style="list-style-image: url('assets/img/facebook.png');">M Asnur Ramdani</li>
-                            <li style="list-style-image: url('assets/img/twitter.png');">@asnurramdhani</li>
-                        </ul>
-                    </div>
-                </div>
-            </aside>
+      <h1>Tentang Kami</h1>
+      <div class="about" id="tentang">
+        <div class="visi">
+          <div class="isi">
+            <h1>Visi & Misi Kami</h1>
+            <p>
+              Visi Kami Menjadi Website rumah sakit dengan pelayanan prima,
+              pilihan utama masyarakat Misi KamiMemberikan pelayanan kesehatan
+              yang cepat, tepat dan akurat. Mengutamakan kepuasan dan
+              keselamatan pasien. Memberikan pelayanan kesehatan yang terjangkau
+              oleh seluruh lapisan masyarakat.Meningkatkan pengetahuan dan
+              keterampilan karyawan, sehingga mampu melaksanakan pelayanan yang
+              profesional. Meningkatkan kualitas alat kedokteran yang dapat
+              memberikan nilai lebih bagi pelayanan kesehatan.
+            </p>
+            <h1>Harapan Kami</h1>
+            <p>
+              Sungguh terhormat bagi kami, jika Anda datang ke Website Ini dan
+              bisa memperoleh banyak hal yang bermanfaat. Medihos adalah sebuah
+              Website yang menyediakan Emergency Ambulance, Pemesanan Kamar dan
+              jadwal praktek dokter Bermula dari sebuah ide cemerlang yang saya
+              dan tim saya Remukan, Website ini diharapkan bisa memudahkan
+              pasien yang membutuhkan pelayanan cepat. Seiring dengan semakin
+              berkembangnya teknologi, maka kami mencoba berinovasi. Salah satu
+              bentuk inovasinya adalah dengan menyediakan Website Medihos ini,
+              dan Webssite Medihos ini adalah salah satu bentuk pelayanan kami
+              kepada Anda.
+            </p>
+          </div>
         </div>
+        <aside>
+          <div class="isi">
+            <div class="profile">
+              <center>
+                <img src="assets/img/profil.jpg" />
+                <h3>M. Asnur Ramdani</h3>
+              </center>
+              <ul>
+                <li style="list-style-image: url('assets/img/gmail.png')">
+                  @asnurramdhani12@gmail.com
+                </li>
+                <li style="list-style-image: url('assets/img/facebook.png')">
+                  M Asnur Ramdani
+                </li>
+                <li style="list-style-image: url('assets/img/twitter.png')">
+                  @asnurramdhani
+                </li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+      </div>
     </article>
     <footer>
-        <p>Website Medihos (Medical Hospital) &copy; Muhamad Asnur Ramdani 2020</p>
+      <p>
+        Website Medihos (Medical Hospital) &copy; Muhamad Asnur Ramdani 2020
+      </p>
     </footer>
-</body>
-
+  </body>
 </html>

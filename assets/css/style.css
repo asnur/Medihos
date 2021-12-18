@@ -315,6 +315,40 @@ footer {
   font-family: "Balsami";
 }
 
+.berita {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin: 0 auto;
+  width: 90%;
+  font-family: "Balsami";
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* border: 1px #000 solid; */
+}
+
+.berita .item:nth-child(2) {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+.img-mask {
+  position: absolute;
+  right: 10;
+  width: 18rem;
+  /* border: 1px #000 solid; */
+}
+
+#jadwal {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.text-jadwal {
+  font-family: "Balsami";
+  margin-top: 50px;
+}
+
 @media screen and (max-width: 680px) {
   ul.topnav li:not(:first-child) {
     display: none;
@@ -395,28 +429,4 @@ footer {
   .img-mask {
     display: none;
   }
-}
-
-.berita {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  margin: 0 auto;
-  width: 90%;
-  font-family: "Balsami";
-  margin-top: 30px;
-  margin-bottom: 30px;
-  /* border: 1px #000 solid; */
-}
-
-.berita .item:nth-child(2) {
-  padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-}
-
-.img-mask {
-  position: absolute;
-  right: 10;
-  width: 18rem;
-  /* border: 1px #000 solid; */
 }
