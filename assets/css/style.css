@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Balsami";
-  src: url('../font/BalsamiqSans-Regular.ttf');
+  src: url("../font/BalsamiqSans-Regular.ttf");
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url('../font/Roboto-Medium.ttf');
+  src: url("../font/Roboto-Medium.ttf");
 }
 
 * {
@@ -68,7 +68,6 @@ ul.topnav li {
 ul.topnav li.icon {
   display: none;
 }
-
 
 ul.topnav li a {
   display: inline-block;
@@ -254,7 +253,6 @@ select {
   border: none;
   font-family: "Balsami";
   margin-bottom: 10px;
-
 }
 
 .bio {
@@ -275,7 +273,6 @@ select {
 
 .about {
   display: flex;
-
 }
 
 .visi {
@@ -286,7 +283,6 @@ select {
   margin: auto;
   margin-top: 60px;
   width: 85%;
-
 }
 
 .visi .isi h1 {
@@ -319,7 +315,7 @@ footer {
   font-family: "Balsami";
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width: 680px) {
   ul.topnav li:not(:first-child) {
     display: none;
   }
@@ -330,7 +326,7 @@ footer {
   }
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width: 680px) {
   ul.topnav {
     margin-right: 0px;
   }
@@ -395,4 +391,32 @@ footer {
     margin: 40px;
     border: 1px rgb(129, 124, 124) solid;
   }
+
+  .img-mask {
+    display: none;
+  }
+}
+
+.berita {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin: 0 auto;
+  width: 90%;
+  font-family: "Balsami";
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* border: 1px #000 solid; */
+}
+
+.berita .item:nth-child(2) {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+.img-mask {
+  position: absolute;
+  right: 10;
+  width: 18rem;
+  /* border: 1px #000 solid; */
 }
