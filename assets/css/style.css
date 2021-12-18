@@ -1,0 +1,398 @@
+@font-face {
+  font-family: "Balsami";
+  src: url('../font/BalsamiqSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url('../font/Roboto-Medium.ttf');
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url(../img/background2.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin-top: -75px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 999999999;
+}
+
+ul.topnav .logo {
+  float: left;
+  color: #000;
+  margin: 10px 0px 0px 30px;
+}
+
+ul.topnav .login {
+  color: #fff;
+  background-color: #15b3f2;
+  border-radius: 22px;
+}
+
+.logo img {
+  width: 150px;
+  height: 75px;
+  margin-top: -10px;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: right;
+  margin-right: 50px;
+}
+
+ul.topnav li {
+  display: inline-block;
+}
+
+.active {
+  border-bottom: 2px #15b3f2 solid;
+}
+
+ul.topnav li.icon {
+  display: none;
+}
+
+
+ul.topnav li a {
+  display: inline-block;
+  color: rgb(48, 46, 46);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 18px;
+  margin: 10px;
+  font-family: "Balsami";
+}
+
+.background {
+  position: absolute;
+  height: 550px;
+  margin-top: 100px;
+}
+
+.background .info {
+  position: relative;
+  font-family: "Balsami";
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.info .content h1 {
+  font-size: 50px;
+  margin: 50px;
+  margin-bottom: 10px;
+}
+
+.info .content p {
+  margin: 50px;
+  width: 45%;
+  font-size: 25px;
+  text-align: justify;
+  margin-top: 15px;
+}
+
+.info .content button {
+  margin: 50px;
+  margin-top: -25px;
+  padding: 15px;
+  background-color: #15b3f2;
+  font-family: "Balsami";
+  color: #fff;
+  font-size: 20px;
+  border-radius: 50px;
+  border: 2px #fff solid;
+  box-shadow: 2px 2px #000;
+}
+
+article:first-child {
+  margin-top: 100px;
+}
+
+article .container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Balsami";
+}
+
+.container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .row .col {
+  flex: 1 1 200px;
+  text-align: center;
+}
+
+.container .row .col img {
+  width: 200px;
+  height: 200px;
+}
+
+.kamar {
+  font-family: "Balsami";
+  text-align: center;
+  margin-top: 100px;
+  background-image: url(../img/background3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.kamar .container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.kamar .container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kamar .container .row .col {
+  flex: 1 1 200px;
+  margin: 35px;
+  box-shadow: 5px 5px 5px #000;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.kamar .container .row .col h1,
+h2,
+button {
+  margin: 10px;
+  padding: 0;
+}
+
+.kamar button {
+  background-color: rgb(120, 221, 133);
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  padding: 10px;
+  font-family: "Balsami";
+  box-shadow: 2px 2px #000;
+}
+
+.kamar .container .row .col img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: block;
+}
+
+.ambulance .row {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(../img/bgc.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ambulance .row .col {
+  flex: 1 1 200px;
+  margin: 10px;
+  text-align: center;
+  font-family: "Balsami";
+}
+
+.ambulance .row .col h1 {
+  font-size: 40px;
+}
+
+.ambulance .row form {
+  width: 80%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.705);
+  font-family: "Balsami";
+}
+
+.ambulance .row input,
+select {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.ambulance .row button {
+  padding: 15px;
+  width: 80%;
+  display: block;
+  border-radius: 5px;
+  margin: 0 auto;
+  background: #15b3f2;
+  color: #fff;
+  border: none;
+  font-family: "Balsami";
+  margin-bottom: 10px;
+
+}
+
+.bio {
+  background-image: url(../img/background4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Balsami";
+  text-align: justify;
+}
+
+.bio h1 {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 45px;
+}
+
+.about {
+  display: flex;
+
+}
+
+.visi {
+  flex-grow: 2;
+}
+
+.visi .isi {
+  margin: auto;
+  margin-top: 60px;
+  width: 85%;
+
+}
+
+.visi .isi h1 {
+  text-align: left;
+}
+
+aside {
+  flex-grow: 1;
+  font-family: "Balsami";
+  height: 100vh;
+}
+
+aside .profile {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #000;
+  padding: 30px;
+  margin: 100px;
+  border: 1px rgb(129, 124, 124) solid;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+footer {
+  text-align: center;
+  font-family: "Balsami";
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {
+    display: none;
+  }
+
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav {
+    margin-right: 0px;
+  }
+
+  ul.topnav.responsive {
+    position: relative;
+  }
+
+  .info .content p {
+    width: auto;
+  }
+
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.1s;
+    border: none;
+  }
+
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: center;
+    border: none;
+    color: rgb(0, 0, 0);
+  }
+
+  ul.topnav.responsive li a:hover {
+    text-align: center;
+    border: none;
+    color: white;
+    background-color: #15b3f2;
+  }
+
+  ul.topnav.responsive .logo {
+    display: block;
+    float: none;
+    text-align: left;
+  }
+
+  ul.topnav.responsive li .login {
+    background-color: rgb(120, 221, 133);
+    color: #fff;
+    background-color: #15b3f2;
+    border-radius: 22px;
+  }
+
+  .about {
+    display: inline;
+  }
+
+  aside .profile {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #000;
+    padding: 10px;
+    margin: 40px;
+    border: 1px rgb(129, 124, 124) solid;
+  }
+}
